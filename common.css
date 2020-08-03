@@ -1,0 +1,176 @@
+.mainContainer {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	padding: 10px;
+	background: #FFF;
+	color: #333;
+	text-align: center;
+	font-size: 18px;	
+	font-weight: bold;
+}
+
+button {
+	width: 90%;
+	padding: 15px;
+	background-color: #72c3dc;
+	color: #FFF;
+	border-radius: 10px;
+	border: none;
+	margin-top: 10%;
+	box-shadow: 0px 5px 1px #4ea8c4;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn-section {
+	text-align: center;
+}
+
+.grid-container {
+	max-width: 960px;
+	display: flex;
+	margin: 0px auto;
+	background-color: #efefef;
+	position: relative;
+	border-top: 5px solid #bfbfbf;
+}
+
+.grid {
+	width: 33%;
+	float: left;
+	text-align: center;
+	font-size: 5em;
+	font-family: monospace;
+}
+
+.grid>div {
+	color: #FFF;
+	margin-top: 25%;
+	margin-bottom: 25%;
+}
+
+.left-panel {
+	width: 75%
+}
+
+.right-panel {
+	width: 25%;
+	float: left;
+	position: absolute;
+	right: 0;
+}
+
+#grid-1 {
+	background-color: #6f98a8;
+}
+
+#grid-2 {
+	background-color: #2b8ead;
+}
+
+#grid-3 {
+	background-color: #2f454e;
+}
+
+#grid-4 {
+	background-color: #2b8ead;
+}
+
+#grid-5 {
+	background-color: #2f454e;
+}
+
+#grid-6 {
+	background-color: #bfbfbf;
+}
+
+#grid-7 {
+	background-color: #bfbfbf;
+}
+
+#grid-8 {
+	background-color: #6f98a8;
+}
+
+#grid-9 {
+	background-color: #2f454e;
+}
+
+@media screen and (max-device-width: 375px) {
+	.mainContainer {
+		background: #FFF;
+	}
+	button {
+		width: 35%;
+		margin-top: 3%;
+		box-shadow: 0px 5px 1px #4ea8c4;
+		font-size: 16px;
+	}
+	.title {
+		padding: 20px;
+		width: 100%;
+		background: #333;
+		color: #FFF;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 400;
+	}
+	.grid-container {
+		width: 100%;
+		padding: 5%;
+		background: #FFF;
+		min-height: auto;
+	}
+	.left-panel {
+		width: 100%;
+		margin-top: 20%;
+	}
+	.right-panel {
+		top: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.grid {
+		width: 95%;
+		margin-bottom: 2%;
+		font-size: 2em;
+		background-color: #efefef !important;
+	}
+	.grid>div {
+		color: #333333;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	
+	#grid-1 {
+		border-left: 20px solid #6f98a8;
+	}
+	#grid-2 {
+		border-left: 20px solid #2b8ead;
+	}
+	#grid-3 {
+		border-left: 20px solid #2f454e;
+	}
+	#grid-4 {
+		border-left: 20px solid #2b8ead;
+	}
+	#grid-5 {
+		border-left: 20px solid #2f454e;
+	}
+	#grid-6 {
+		border-left: 20px solid #bfbfbf;
+	}
+	#grid-7 {
+		border-left: 20px solid #bfbfbf;
+	}
+	#grid-8 {
+		border-left: 20px solid #6f98a8;
+	}
+	#grid-9 {
+		border-left: 20px solid #2f454e;
+	}
+}
